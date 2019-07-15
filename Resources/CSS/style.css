@@ -227,3 +227,17 @@ div.flex-features h3
     background-image: linear-gradient(rgb(255, 139, 6), rgba(212, 136, 43, 1));
     text-decoration: underline;
 }
+
+.favorite-meals
+    {
+padding: 0;
+    }
+    
+
+    .meal-showcase li
+    {
+        list-style: none;
+        display: block;
+        width: 25%;
+        float: left;
+    }
