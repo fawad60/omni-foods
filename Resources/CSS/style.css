@@ -1,0 +1,229 @@
+/*--------------------------------------------------------------------------------*/
+/*----------Basic-------------*/
+/*---------------------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: white;
+    font-family: "Lato", "Arial", sans-serif;
+    color: rgb(93, 89, 89);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h1,h2,h3
+{
+    font-family: 'Open Sans',
+    sans-serif;
+
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* ------------------------------------------------------------------------------
+                            ----------HEADER---------------
+--------------------------------------------------------------------------------*/
+
+header {
+    background-image: linear-gradient(#1d1b1bc9, #252323c7),
+        url(../images/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-textbox {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    line-height: 1.5;
+}
+
+.nav-bar {
+    background-color: #2523231f;
+    height: 70px;
+}
+
+.logo {
+    float: left;
+    width: auto;
+    height: inherit;
+    margin-left: 110px;
+}
+
+.ul-main-nav {
+    float: right;
+    list-style: none;
+    padding: 15px;
+
+}
+
+.ul-main-nav li {
+    display: inline-block;
+}
+
+.ul-main-nav li a {
+    color: white;
+    padding: 15px;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.ul-main-nav li a:hover {
+    color: #dad5d5e1;
+    border-bottom: 4px solid #fc5d02e1;
+    border-radius: 80%;
+}
+
+.hero-h1 {
+    font-size: 200%;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*----------------------------------------------------------------------*/
+/*  ----------Section---------*/
+/*-----------------------------------------------------------------------*/
+
+.section-tittle {
+    margin: 30px auto;
+    padding: 0px;
+    text-align: center;
+
+}
+
+h2
+{
+    font-size: 150%;
+         
+font-size: 400;
+text-transform: uppercase;
+word-spacing: 2px;
+
+}
+
+h2::after {
+    display: block;
+    content: "";
+    border-bottom: 4.5px solid orange;
+    width: 100px;
+    margin: 30px auto;
+
+}
+
+.features-p
+{
+ 
+    line-height: 2;
+    margin: 30px auto;
+    width: 60%;
+text-align: center;
+}
+
+
+
+.flex-features
+{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 15% 60px 6%;
+    padding: 0 20px;
+
+}
+
+.col-1-of-4
+{
+    padding: 0 15px;
+    
+}
+
+
+.col-2-of-4 {
+    padding: 0 10px;
+}
+
+.col-3-of-4 {
+    padding: 0 10px;
+}
+
+.col-4-of-4 {
+    padding: 0 10px;
+}
+
+div.flex-features h3
+{
+     margin: 0;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.p-flex
+{
+    font-size: 90%;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.icon-big
+{
+    font-size: 250%;
+    display: block;
+    color: rgb(228, 160, 70);
+
+}
+
+
+
+
+
+/*----------------------------------------------------------------------*/
+/*  ----------buttons---------*/
+/*-----------------------------------------------------------------------*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font: 300;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 200px;
+}
+
+.btn-signup {
+    color: white;
+    border: 1px solid orange;
+    margin-right: 5px;
+}
+
+.btn-signup:hover {
+
+
+    background-image: linear-gradient(rgb(255, 153, 0), rgb(182, 123, 50));
+    text-decoration: underline;
+}
+
+.btn-section {
+    color: white;
+    border: 1px solid orange;
+}
+
+.btn-section:hover {
+    background-image: linear-gradient(rgb(255, 139, 6), rgba(212, 136, 43, 1));
+    text-decoration: underline;
+}
