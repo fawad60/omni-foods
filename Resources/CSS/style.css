@@ -15,15 +15,51 @@ html {
     font-size: 20px;
 }
 
-h1,h2,h3
-{
-    font-family: 'Open Sans',
-    sans-serif;
+h1,
+h2,
+h3 {
+    font-family: "Open Sans", sans-serif;
 
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+
+/*----------------------------------------------------------------------*/
+/*  ----------buttons---------*/
+/*-----------------------------------------------------------------------*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    font: 300;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 200px;
+}
+
+.btn-signup {
+    color: white;
+    border: 1px solid orange;
+    margin-right: 5px;
+}
+
+.btn-signup:hover {
+    background-image: linear-gradient(rgb(255, 153, 0), rgb(182, 123, 50));
+    text-decoration: underline;
+}
+
+.btn-section {
+    color: white;
+    border: 1px solid orange;
+}
+
+.btn-section:hover {
+    background-image: linear-gradient(rgb(255, 139, 6), rgba(212, 136, 43, 1));
+    text-decoration: underline;
+}
+
 
 
 /* ------------------------------------------------------------------------------
@@ -61,7 +97,6 @@ header {
     float: right;
     list-style: none;
     padding: 15px;
-
 }
 
 .ul-main-nav li {
@@ -94,9 +129,6 @@ header {
     margin-bottom: 20px;
 }
 
-
-
-
 /*----------------------------------------------------------------------*/
 /*  ----------Section---------*/
 /*-----------------------------------------------------------------------*/
@@ -105,56 +137,43 @@ header {
     margin: 30px auto;
     padding: 0px;
     text-align: center;
-
 }
 
-h2
-{
+.section-tittle h2 {
     font-size: 150%;
-         
-font-size: 400;
-text-transform: uppercase;
-word-spacing: 2px;
 
+    font-size: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
 }
 
-h2::after {
+.section-tittle h2::after {
     display: block;
     content: "";
     border-bottom: 4.5px solid orange;
     width: 100px;
     margin: 30px auto;
-
 }
 
-.features-p
-{
- 
+.features-p {
     line-height: 2;
     margin: 30px auto;
     width: 60%;
-text-align: center;
+    text-align: center;
 }
 
-
-
-.flex-features
-{
+.flex-features {
     width: 90%;
     display: flex;
     align-content: center;
     justify-content: center;
     margin: 0 15% 60px 6%;
     padding: 0 20px;
-
 }
 
-.col-1-of-4
-{
+.col-1-of-4 {
     padding: 0 15px;
-    
 }
-
 
 .col-2-of-4 {
     padding: 0 10px;
@@ -168,76 +187,77 @@ text-align: center;
     padding: 0 10px;
 }
 
-div.flex-features h3
-{
-     margin: 0;
+div.flex-features h3 {
+    margin: 0;
     font-weight: 300;
     margin-bottom: 15px;
 }
-.p-flex
-{
+
+.p-flex {
     font-size: 90%;
     font-weight: 300;
     font-size: 1rem;
 }
-.icon-big
-{
+
+.icon-big {
     font-size: 250%;
     display: block;
     color: rgb(228, 160, 70);
-
 }
 
-
-
-
-
-/*----------------------------------------------------------------------*/
-/*  ----------buttons---------*/
-/*-----------------------------------------------------------------------*/
-
-.btn {
-    display: inline-block;
-    padding: 10px 30px;
-    font: 300;
-    text-decoration: none;
-    border: 1px solid;
-    border-radius: 200px;
+.Favorite-meals
+{
+    margin-bottom:  50px;
 }
 
-.btn-signup {
-    color: white;
-    border: 1px solid orange;
-    margin-right: 5px;
+.meal-showcase li {
+    list-style: none;
+    display: block;
+    width: 25%;
+    float: left;
+    padding: 0;
+    margin: 0;
 }
 
-.btn-signup:hover {
-
-
-    background-image: linear-gradient(rgb(255, 153, 0), rgb(182, 123, 50));
-    text-decoration: underline;
-}
-
-.btn-section {
-    color: white;
-    border: 1px solid orange;
-}
-
-.btn-section:hover {
-    background-image: linear-gradient(rgb(255, 139, 6), rgba(212, 136, 43, 1));
-    text-decoration: underline;
-}
-
-.favorite-meals
-    {
-padding: 0;
-    }
+.meal-photos {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
     
+}
 
-    .meal-showcase li
-    {
-        list-style: none;
-        display: block;
-        width: 25%;
-        float: left;
-    }
+.meal-photos img {
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+    height: auto;
+
+    width: 100%;
+}
+
+.meal-photos img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+.work-steps {
+    margin: 50px auto;
+    padding: 0px;
+}
+
+.work-steps h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 150%;
+    font-size: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.work-steps h2::after {
+    display: block;
+    content: "";
+    border-bottom: 4.5px solid orange;
+    width: 100px;
+    margin: 30px auto;
+}
