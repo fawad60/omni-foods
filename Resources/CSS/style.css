@@ -239,14 +239,22 @@ div.flex-features h3 {
     opacity: 1;
     transform: scale(1.03);
 }
+.float-fix {zoom: 1;}
+.float-fix::after
+{
+    content: ".";
+    display: block;
+    clear: left;
+    height: 0;
+}
 
 .work-steps {
-    margin: 50px auto;
+    margin: 0 auto;
     padding: 0px;
 }
 
 .work-steps h2 {
-    margin-top: 30px;
+    padding: 30px;
     text-align: center;
     font-size: 150%;
     font-size: 400;
