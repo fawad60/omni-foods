@@ -130,7 +130,7 @@ header {
 }
 
 /*----------------------------------------------------------------------*/
-/*  ----------Section---------*/
+/*  ----------title-Section ---------*/
 /*-----------------------------------------------------------------------*/
 
 .section-tittle {
@@ -140,11 +140,11 @@ header {
 }
 
 .section-tittle h2 {
-    font-size: 150%;
-
+    font-size: 170%;
     font-size: 400;
     text-transform: uppercase;
     word-spacing: 2px;
+margin-top: 80px;
 }
 
 .section-tittle h2::after {
@@ -154,6 +154,8 @@ header {
     width: 100px;
     margin: 30px auto;
 }
+
+
 
 .features-p {
     line-height: 2;
@@ -167,7 +169,7 @@ header {
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 0 15% 60px 6%;
+    margin: 0 15% 100px 6%;
     padding: 0 20px;
 }
 
@@ -200,14 +202,20 @@ div.flex-features h3 {
 }
 
 .icon-big {
-    font-size: 250%;
+    font-weight: 100;
+    padding: 15px;
+    font-size: 270%;
     display: block;
     color: rgb(228, 160, 70);
+    
 }
 
-.Favorite-meals
-{
-    margin-bottom:  50px;
+/*----------------------------------------------------------------------*/
+/*  ----------Meal-Section ---------*/
+/*-----------------------------------------------------------------------*/
+
+.Favorite-meals {
+    margin-bottom: 50px;
 }
 
 .meal-showcase li {
@@ -223,7 +231,7 @@ div.flex-features h3 {
     width: 100%;
     overflow: hidden;
     background-color: #000;
-    
+
 }
 
 .meal-photos img {
@@ -239,27 +247,37 @@ div.flex-features h3 {
     opacity: 1;
     transform: scale(1.03);
 }
-.float-fix {zoom: 1;}
-.float-fix::after
-{
+
+.float-fix {
+    zoom: 1;
+}
+
+.float-fix::after {
     content: ".";
     display: block;
     clear: left;
     height: 0;
 }
 
+/*----------------------------------------------------------------------*/
+/*  ----------work-Steps-Section ---------*/
+/*-----------------------------------------------------------------------*/
+
 .work-steps {
     margin: 0 auto;
-    padding: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color:#F4F4F4;
 }
 
 .work-steps h2 {
-    padding: 30px;
+    padding: 50px;
     text-align: center;
-    font-size: 150%;
+    font-size: 180%;
     font-size: 400;
     text-transform: uppercase;
     word-spacing: 2px;
+    margin-top: 30px;
 }
 
 .work-steps h2::after {
@@ -269,3 +287,149 @@ div.flex-features h3 {
     width: 100px;
     margin: 30px auto;
 }
+
+.work-steps-flex {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 12%;
+}
+
+.iphone-img {
+    max-width: 210px;
+    max-height: 431px;
+
+}
+
+.playstore-img {
+    width: 150px;
+    height: 45px;
+    float: left;
+    padding-right: 10px;
+    margin-left: 25px;
+
+}
+
+.appstore-img {
+    width: 150px;
+    height: auto;
+    float: left;
+
+}
+
+.steps {
+    display: inline-block;
+    padding: 50px;
+    margin-bottom: 60px;
+
+}
+
+.steps div {
+    float: left;
+    border-radius: 50%;
+    border: 2px solid orange;
+    color: orange;
+    font-weight: 300;
+    height: 40px;
+    width: 40px;
+    margin: 0;
+    margin-right: 25px;
+    font-size: 1.3rem;
+
+
+}
+
+
+div.steps p {
+
+    line-height: 1.2;
+    padding-bottom: 40px;
+    text-align: left;
+
+}
+
+/*----------------------------------------------------------------------*/
+/*  ----------Cities-Section ---------*/
+/*-----------------------------------------------------------------------*/
+
+.cities h2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 180%;
+    font-size: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
+   margin: 50px auto 10px;
+   
+}
+
+.cities h2::after {
+    display: block;
+    content: "";
+    border-bottom: 4.5px solid orange;
+    width: 100px;
+    margin: 30px auto;
+}
+
+.cities-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-top: 30px;
+    margin: 0 6.5%;
+    margin-bottom:500px; 
+}
+
+div.cities-flex img {
+    width: 100%;
+    padding: 0 7%;
+
+}
+
+.col-1-of-city
+
+{
+    width: 25%;
+  
+}
+
+.col-2-of-city {
+    width: 25%;
+}
+
+
+.col-3-of-city {
+    width: 25%;
+}
+
+.col-4-of-city {
+    width: 25%;
+}
+
+
+div.cities-flex h3
+{
+    font-weight: 300;
+    margin-left: 25px;
+    margin-bottom: 30px;
+}
+
+.icon-small
+
+{
+        color: rgb(228, 160, 70);
+        padding: 10px;
+    
+
+}
+
+.img-city-caption-features
+{
+    font-weight: 300;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    
+
+}
+
